@@ -11,11 +11,17 @@ Example: RGB, RGBA, HSL, Hex,
 
 h1,h2,h3,body,ul{
 	font-family: 'Playfair Display SC', serif;
+	word-spacing: 5px;
+	line-height: 1.0em
 }
-
+h1,h2,h3{
+	font-weight: bold;
+	text-transform: uppercase;
+}
 body{
 	color: #C5D1D9;
 	background-color: black;
+
 }
 h1{
 	color: #0D0C00;
@@ -25,12 +31,17 @@ h2{
 	color: #0D0C00;
 	background-color: rgba(81,102,115, 0.8)
 }
+p{
+	text-indent: 5px;
+}
 ul{
 	background-color: #263640;
 	color: hsl(202.5,15.2%,58.8%);
+	font-style: italic;
 }
 a:link{
 	text-decoration: none;
+	color: #efefef;
 }
 a:hover{
 	text-decoration: underline;
