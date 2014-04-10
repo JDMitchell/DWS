@@ -12,11 +12,12 @@ Example: RGB, RGBA, HSL, Hex,
 h1,h2,h3,body,ul{
 	font-family: 'Playfair Display SC', serif;
 	word-spacing: 5px;
-	line-height: 1.0em
+	line-height: 1.5em
 }
 h1,h2,h3{
 	font-weight: bold;
 	text-transform: uppercase;
+	text-shadow: 1px 1px #dedede;
 }
 body{
 	color: #C5D1D9;
@@ -32,7 +33,7 @@ h2{
 	background-color: rgba(81,102,115, 0.8)
 }
 p{
-	text-indent: 5px;
+	text-indent: 1.5em;
 }
 ul{
 	background-color: #263640;
@@ -45,4 +46,10 @@ a:link{
 }
 a:hover{
 	text-decoration: underline;
+}
+a:visited{
+	color: #00C2FF;
+}
+a:active{
+	color: #FF0000;
 }
