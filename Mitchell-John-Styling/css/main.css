@@ -3,6 +3,16 @@ Colors were gathered from Adobe Kuler
 I chose colors that were appropriate for the the color scheme that is the main character
 */
 
+/*
+http://www.colorhexa.com/
+Allows you to acquire all color styles for your colors
+Example: RGB, RGBA, HSL, Hex,
+*/
+
+h1,h2,h3,body,ul{
+	font-family: 'Playfair Display SC', serif;
+}
+
 body{
 	color: #C5D1D9;
 	background-color: black;
