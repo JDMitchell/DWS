@@ -16,5 +16,12 @@ h2{
 	background-color: rgba(81,102,115, 0.8)
 }
 ul{
-
+	background-color: #263640;
+	color: hsl(202.5,15.2%,58.8%);
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
 }
