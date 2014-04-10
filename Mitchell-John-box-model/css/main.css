@@ -1,0 +1,55 @@
+/*
+Colors were gathered from Adobe Kuler
+I chose colors that were appropriate for the the color scheme that is the main character
+*/
+
+/*
+http://www.colorhexa.com/
+Allows you to acquire all color styles for your colors
+Example: RGB, RGBA, HSL, Hex,
+*/
+
+h1,h2,h3,body,ul{
+	font-family: 'Playfair Display SC', serif;
+	word-spacing: 5px;
+	line-height: 1.5em
+}
+h1,h2,h3{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #dedede;
+}
+body{
+	color: #C5D1D9;
+	background-color: black;
+
+}
+h1{
+	color: #0D0C00;
+	background-color: rgb(134,154,166)
+}
+h2{
+	color: #0D0C00;
+	background-color: rgba(81,102,115, 0.8)
+}
+p{
+	text-indent: 1.5em;
+}
+ul{
+	background-color: #263640;
+	color: hsl(202.5,15.2%,58.8%);
+	font-style: italic;
+}
+a:link{
+	text-decoration: none;
+	color: #efefef;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: #00C2FF;
+}
+a:active{
+	color: #FF0000;
+}
