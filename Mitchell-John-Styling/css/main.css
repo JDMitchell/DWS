@@ -1,0 +1,27 @@
+/*
+Colors were gathered from Adobe Kuler
+I chose colors that were appropriate for the the color scheme that is the main character
+*/
+
+body{
+	color: #C5D1D9;
+	background-color: black;
+}
+h1{
+	color: #0D0C00;
+	background-color: rgb(134,154,166)
+}
+h2{
+	color: #0D0C00;
+	background-color: rgba(81,102,115, 0.8)
+}
+ul{
+	background-color: #263640;
+	color: hsl(202.5,15.2%,58.8%);
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
