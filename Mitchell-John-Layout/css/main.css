@@ -11,48 +11,59 @@ Example: RGB, RGBA, HSL, Hex,
 
 h1,h2,h3,body,ul{
 	font-family: 'Playfair Display SC', serif;
-	word-spacing: 5px;
+	word-spacing: 0.25em;
 	line-height: 1.5em;
-	border-radius: 15px;
-	box-shadow: 0px 0px 5px 5px;
+	border-radius: 1em;
+	box-shadow: 0em 0em 0.25em 0.25em;
 }
 h1,h2,h3{
 	font-weight: bold;
 	text-transform: uppercase;
-	text-shadow: 1px 1px #dedede;
-	width: 350px;
-	border: 2.5px solid #efefef;
-	margin: 15px auto;
-	padding: 15px ;
+	text-shadow: 0.05em 0.05em #dedede;
+	width: 30%;
+	border: 0.125em solid #efefef;
+	margin: 1em auto;
+	padding: 1em ;
 }
 body{
 	text-align: center;
 	color: #C5D1D9;
 	background-color: black;
-	border: 5px solid #ffffff;
+	border: 0.25em solid #ffffff;
 
 }
 h1{
 	color: #0D0C00;
 	background-color: rgb(134,154,166);
-	margin: 13px auto;
+	margin: 0.75em auto;
 }
 h2{
 	color: #0D0C00;
 	background-color: rgba(81,102,115, 0.8);
-	margin: 13px auto;
+	margin: 0.75em auto;
 }
 h3{
-	margin: 13px auto;
+	margin: 0.75em auto;
+
+}
+.SAO, .SAO2{
+	width: 45%;
+	margin: 0em  0.75em 0.75em 0.75em;
+	float: left;
+	clear: none;
 
 }
 p{
 	text-indent: 1.5em;
 	border: 2.5px solid #efefef;
-	width: 600px;
-	margin: 15px auto 15px auto;
-	padding: 15px 30px 15px 30px;
-	border-radius: 15px;
+	width: 45%;
+	margin: 1em auto 1em auto;
+	padding: 1em 2em 1em 2em;
+	border-radius: 1em;
+}
+.clear{
+	width: 25%;
+	clear:both;
 }
 ul{
 	background-color: #263640;
@@ -61,11 +72,14 @@ ul{
 	list-style-type: disc;
 	max-width: 200px;
 	border: 2.5px solid #efefef;
-	margin: 15px auto;
-	padding: 15px auto;
+	margin: 1em auto;
+	padding: 1em auto;
 }
 li{
 	display: block;
+}
+#TOP{
+	clear:both;
 }
 a:link{
 	text-decoration: none;
