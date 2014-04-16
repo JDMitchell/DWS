@@ -20,7 +20,7 @@ h1,h2,h3{
 	font-weight: bold;
 	text-transform: uppercase;
 	text-shadow: 0.05em 0.05em #dedede;
-	width: 50%;
+	width: 45%;
 	border: 0.125em solid #efefef;
 	margin: 1em auto;
 	padding: 1em ;
@@ -44,16 +44,24 @@ h2{
 h3{
 	margin: 0.75em auto;
 }
-.SAO, .navigation{
-	width: 50%;
-	margin: 0em  0.5em 0.5em 0.5em;
+.SAO{
 	float: left;
-	clear: left;
+	clear: both;
+	width: 50%;
+	margin: 0em 1em 1em 1em;
 }
+
+.navigation{
+	float: left;
+	clear: both;
+	width: 50%;
+	margin: 0em 1em 1em 1em;
+}
+
 p{
 	text-indent: 1.5em;
 	border: 2.5px solid #efefef;
-	width: 50%;
+	width: 45%;
 	margin: 1em auto 1em auto;
 	padding: 1em 2em 1em 2em;
 	border-radius: 1em;
@@ -67,10 +75,10 @@ ul{
 	color: hsl(202.5,15.2%,58.8%);
 	font-style: italic;
 	list-style-type: disc;
-	max-width: 50%;
+	max-width: 45%;
 	border: 0.02em solid #efefef;
 	margin: 1em auto;
-	padding: 1em auto 1em auto;
+	padding: 1em 0em 1em 0em;
 }
 li{
 	display: block;
