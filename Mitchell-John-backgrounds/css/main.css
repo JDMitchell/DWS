@@ -15,16 +15,56 @@ body{
 	background-color: rgb(61, 61, 61);
 	color: WhiteSmoke;
 	font-family: 'Old Standard TT', serif;
+	font-size: 100%;
+	text-transform: none;
+	letter-spacing: .1em
 }
 
 h1{
-	background-color: #496c5d
+	background-color: #496c5d;
+	font-size:	200%;
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 2em;
+	text-shadow: 0.1em 0.1em #131313;
 }
 
 h2{
 	background-color: rgba(112, 119, 110, 1.0);
+	font-size: 150%;
+	font-size: bold;
+	line-height: 2em;
+	text-shadow: 0.1em 0.1em #131313;
+}
+
+h3{
+	font-size: 125%;
+	font-style: italic;
+}
+
+p{
+	font-size: 100%;
+	font-style: normal;
+	text-indent: 2em;
 }
 
 ul{
-	background-color: hsl(142, 4%, 58%);
+	background-color: hsl(142, 4%, 58%)
+}
+
+a:link{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #131313;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	color: gray;
 }
