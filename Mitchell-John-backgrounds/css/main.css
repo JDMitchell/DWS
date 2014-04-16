@@ -12,7 +12,6 @@ Example: RGB, RGBA, HSL, Hex,
 
 
 body{
-	background-color: rgb(61, 61, 61);
 	color: WhiteSmoke;
 	font-family: 'Old Standard TT', serif;
 	font-size: 100%;
@@ -25,6 +24,9 @@ body{
 	text-align: center;
 	border-radius: 16px;
 	box-shadow: 0em 0em 2em #000000;
+	background-image: url(../images/dark-canvas.gif);
+	background-repeat: repeat;
+	background-position: center;
 }
 
 h1{
@@ -66,6 +68,7 @@ h3{
 }
 
 p{
+	background-color: rgb(61, 61, 61);
 	font-size: 100%;
 	font-style: normal;
 	text-indent: 2em;
@@ -120,7 +123,7 @@ a:link{
 }
 
 a:visited{
-	color: #131313;
+	color: #777777;
 }
 
 a:hover{
