@@ -17,7 +17,14 @@ body{
 	font-family: 'Old Standard TT', serif;
 	font-size: 100%;
 	text-transform: none;
-	letter-spacing: .1em
+	letter-spacing: .1em;
+	width: 90%;
+	padding: 1% 1%;
+	margin:	1% auto;
+	border: 0.5em solid #cdcdcd;
+	text-align: center;
+	border-radius: 16px;
+	box-shadow: 0em 0em 2em #000000;
 }
 
 h1{
@@ -27,6 +34,14 @@ h1{
 	text-transform: capitalize;
 	line-height: 2em;
 	text-shadow: 0.1em 0.1em #131313;
+	text-align: center;
+	width: 50%;
+	height: 5%;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+
 }
 
 h2{
@@ -35,6 +50,14 @@ h2{
 	font-size: bold;
 	line-height: 2em;
 	text-shadow: 0.1em 0.1em #131313;
+	text-align: center;
+	width: 50%;
+	height: 5%;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+	display: inline-block;
 }
 
 h3{
@@ -46,10 +69,49 @@ p{
 	font-size: 100%;
 	font-style: normal;
 	text-indent: 2em;
+	height:	inherit;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+	display: inline-block;
 }
 
 ul{
 	background-color: hsl(142, 4%, 58%)
+}
+
+#navigation{
+	list-style-type: none;
+	text-align: left;
+	min-width: 25%;
+	width: 30%;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+}
+
+#list{
+	list-style-type: none;
+	width: 20%;
+	margin: 1% auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+}
+
+.SAO, .navigation{
+	float: right;
+	width: 45%;
+	padding: 1%;
+	margin: 1%;
+	clear: left;
+}
+
+
+.clear{
+	clear: both;
 }
 
 a:link{
