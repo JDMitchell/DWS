@@ -5,23 +5,25 @@ I chose colors that were appropriate for the the color scheme that is the main c
 
 /*
 http://www.colorhexa.com/
+http://encycolorpedia.com
 Allows you to acquire all color styles for your colors
 Example: RGB, RGBA, HSL, Hex,
 */
 
 
 body{
-	background-color: #3D3D3D
+	background-color: rgb(61, 61, 61);
+	color: WhiteSmoke;
 }
 
 h1{
-
+	background-color: #496c5d
 }
 
 h2{
-
+	background-color: rgba(112, 119, 110, 1.0);
 }
 
 ul{
-
+	background-color: hsl(142, 4%, 58%);
 }
