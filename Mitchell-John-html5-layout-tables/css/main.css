@@ -162,6 +162,7 @@ table{
 
 .even{
 	background-color: #121212;
+	text-decoration: underline;
 }
 
 a:link{
