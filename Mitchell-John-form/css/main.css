@@ -1,0 +1,188 @@
+/*
+Colors were gathered from Adobe Kuler
+I chose colors that were appropriate for the the color scheme that is the main character
+*/
+
+/*
+http://www.colorhexa.com/
+http://encycolorpedia.com
+Allows you to acquire all color styles for your colors
+Example: RGB, RGBA, HSL, Hex,
+*/
+
+
+
+body{
+	color: WhiteSmoke;
+	font-family: 'Old Standard TT', serif;
+	font-size: 100%;
+	text-transform: none;
+	letter-spacing: .1em;
+	width: 90%;
+	padding: 1% 1%;
+	margin:	1% auto;
+	border: 0.5em solid #cdcdcd;
+	text-align: center;
+	border-radius: 16px;
+	box-shadow: 0em 0em 2em #000000;
+	background-image: url(../images/dark-canvas.gif);
+	background-repeat: repeat;
+	background-position: center;
+}
+
+header, nav, section, article, footer{
+	display: block;
+}
+
+
+
+h1{
+	background-color: #496c5d;
+	font-size:	200%;
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 2em;
+	text-shadow: 0.1em 0.1em #131313;
+	text-align: center;
+	width: 50%;
+	height: 5%;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+	background: #2b5646; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2b5646 0%, #52a587 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b5646), color-stop(100%,#52a587)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2b5646 0%,#52a587 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2b5646 0%,#52a587 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2b5646 0%,#52a587 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2b5646 0%,#52a587 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b5646', endColorstr='#52a587',GradientType=0 ); /* IE6-9 */
+}
+
+h2{
+	background-color: rgba(112, 119, 110, 1.0);
+	font-size: 150%;
+	font-size: bold;
+	line-height: 2em;
+	text-shadow: 0.1em 0.1em #131313;
+	text-align: center;
+	width: 50%;
+	height: 5%;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+	display: inline-block;
+	background: #82baa0; /* Old browsers */
+	background: -moz-linear-gradient(top,  #82baa0 0%, #007003 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#82baa0), color-stop(100%,#007003)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #82baa0 0%,#007003 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #82baa0 0%,#007003 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #82baa0 0%,#007003 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #82baa0 0%,#007003 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82baa0', endColorstr='#007003',GradientType=0 ); /* IE6-9 */
+
+}
+
+h3{
+	font-size: 125%;
+	font-style: italic;
+}
+
+p{
+	background-color: rgb(61, 61, 61);
+	font-size: 100%;
+	font-style: normal;
+	text-indent: 2em;
+	height:	inherit;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+	display: inline-block;
+}
+
+ul{
+	background-color: hsl(142, 4%, 58%)
+}
+
+table{
+	width: 45%;
+	padding: 0.5em;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 100%;
+	border: 0.5em solid #cdcdcd;
+	border-collapse: collapse;
+	background-color: rgb(61, 61, 61) 
+}
+
+footer p{
+	text-align: center;
+	text-indent: 0em;
+}
+#intro{
+	width: 50%;
+}
+#navigation{
+	list-style-type: none;
+	text-align: left;
+	min-width: 25%;
+	width: 30%;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+}
+
+#list{
+	list-style-type: none;
+	width: 20%;
+	margin: 1% auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+}
+
+.SAO, nav, .Character_arcs{
+	float: right;
+	width: 45%;
+	padding: 1%;
+	margin: 1%;
+	clear: none;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.small{
+	float: left;
+	clear: left;
+	width: 2em;
+	height: 2em;
+}
+
+
+tr.even{
+	background-color: #121212;
+}
+
+a:link{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #777777;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	color: gray;
+}
