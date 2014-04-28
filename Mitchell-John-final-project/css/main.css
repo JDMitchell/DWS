@@ -5,7 +5,9 @@ body{
 	letter-spacing: 0.05em;
 	word-spacing: 0.05em;
 }
-
+/*
+All heading modifications
+*/
 h1, h2, h3, h4, h5{
 	font-weight: bold;
 	font-style: normal;
@@ -32,6 +34,7 @@ h4{
 	font-size: 120%
 }
 
+/*Non head modifications*/
 p{
 	font-size: 100%;
 	text-indent: 2em;
@@ -42,6 +45,7 @@ ul{
 	list-style-type: square;
 }
 
+/*Layout setup*/
 article, aside, form{
 	width: 600px;
 	margin: 1em 1em;
@@ -62,6 +66,8 @@ article{
 	margin: 0px auto;
 }
 
+
+/*Extras, mods for quick links, link modifications*/
 footer{
 	width: 60px;
 	float: left;
@@ -99,6 +105,8 @@ a:hover{
 a:active{
 	color: maroon;
 }
+
+/*Form modifications and setups*/
 
 .title{
 	float: right;
