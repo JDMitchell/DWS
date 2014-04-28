@@ -3,44 +3,63 @@ body{
 	background-color: #777777;
 	color: #efefef;
 	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
 }
 
 h1, h2, h3, h4, h5{
 	font-weight: bold;
 	font-style: normal;
+	text-shadow: 2px 2px 7px #222222;
+
 }
 
 h1{
-	font-size: 180%
+	font-size: 180%;
+
 }
 
 h2{
-	font-size: 160%
+	font-size: 160%;
+	text-align: center;
 }
 
 h3{
-	font-size: 140%
+	font-size: 140%;
+	text-align: center;
 }
 
 h4{
 	font-size: 120%
 }
 
-h5{
-	font-size: 100%
-}
-
 p{
-	font-size: 80%;
+	font-size: 100%;
 	text-indent: 2em;
+	line-height: 1.5em;
 }
 
+ul{
+	list-style-type: square;
+}
 
-article, aside{
+article, aside, form{
 	width: 600px;
-	margin: 0px 1em;
+	margin: 1em 1em;
+	padding: 1em 1em;
 	float: left;
 	clear: right;
+	border: 0.5em solid #eeeeee;
+	border-radius: 3em 0em;
+	box-shadow: 5px 5px 5px 5px #444444;
+}
+
+aside{
+	width: 300px;
+}
+
+article{
+	width: 600px;
+	margin: 0px auto;
 }
 
 footer{
@@ -59,6 +78,10 @@ img{
 	border: 0.25em solid #334433;
 
 }
+nav{
+	padding: 1em 1em;
+	margin: 1em auto;
+}
 
 a:link{
 	color: inherit;
@@ -75,3 +98,45 @@ a:hover{
 
 a:active{
 	color: maroon;
+}
+
+.title{
+	float: right;
+	width: 30em;
+	clear: left;
+	text-align: right;
+}
+
+
+input{
+	width: 18em;
+	border: 0.1em solid #d6d6d6;
+	padding: 0.1em;
+	float: right;
+}
+
+input:hover, input:focus{
+	background-color: #666;
+	color: inherit;
+	border: 0.1em solid #999999;
+}
+
+#submit{
+	width: 20em;
+	text-align: right;
+}
+
+#submit input{
+	border: 0.1em solid #333;
+	background-color: #555;
+	color: #ffffff;
+	padding: 0.25em;
+	margin-top: 0.5em;
+}
+
+#submit input:hover{
+	background-color: #333;
+	cursor: pointer;
+}
+
+
