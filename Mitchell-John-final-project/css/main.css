@@ -1,3 +1,77 @@
 body{
-	font-family: 'Arvo', 'serif';
+	font-family: 'Roboto Slab', 'serif';
+	background-color: #777777;
+	color: #efefef;
+	letter-spacing: 0.05em;
 }
+
+h1, h2, h3, h4, h5{
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1{
+	font-size: 180%
+}
+
+h2{
+	font-size: 160%
+}
+
+h3{
+	font-size: 140%
+}
+
+h4{
+	font-size: 120%
+}
+
+h5{
+	font-size: 100%
+}
+
+p{
+	font-size: 80%;
+	text-indent: 2em;
+}
+
+
+article, aside{
+	width: 600px;
+	margin: 0px 1em;
+	float: left;
+	clear: right;
+}
+
+footer{
+	width: 60px;
+	float: left;
+	clear: both;
+}
+
+figure{
+	border: 0.25em solid #333333;
+	padding: 1em 1em;
+	margin: 1em auto;
+}
+
+img{
+	border: 0.25em solid #334433;
+
+}
+
+a:link{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited{
+	color: rgba(102, 0, 153, 1.0);
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	color: maroon;
