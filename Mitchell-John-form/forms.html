@@ -10,8 +10,7 @@
 <![endif]-->
 	</head>
 	<body>
-		<form action="http://www.example.com/subscribe.php" method:"post">
-		</form>
+	
 
 		<header>
 			<h1 id="top"><img src="images/Sword.png" class="small" alt="sword"></img>Sword Art Online</h1>
@@ -24,6 +23,23 @@
 			<p>Most of the following information is going to be based on the anime from ANIPLEX.
 			</p>
 		</header>
+
+		<form action="http://www.example.com/subscribe.php" method:"post">
+			<fieldset>
+				<legend>If you would like to become a member please fill out the form below.</legend>
+			
+				<p>
+				<label id="username" class="title">Username: <input type="text" placeholder="6-15 Characters"></input></label><br />
+				<label id="password" class="title">Password: <input type="password" placeholder="Min. 6 characters"></input></label><br />
+				<label id="password" class="title">Confirm Password: <input type="password" placeholder="Must Match Previous Box"></input></label><br />
+				<label id="email" class="title" type="email">Email: <input type="text" placeholder="Please Enter Your Email"></input></label>
+				</p>
+			
+			<div id="submit">
+				<input type="submit" value="Register"></input>
+			</div>
+			</fieldset>
+		</form>
 
 		<nav>
 			<ul id="navigation">

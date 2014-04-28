@@ -23,7 +23,7 @@ body{
 	margin:	1% auto;
 	border: 0.5em solid #cdcdcd;
 	text-align: center;
-	border-radius: 16px;
+	border-radius: 1em;
 	box-shadow: 0em 0em 2em #000000;
 	background-image: url(../images/dark-canvas.gif);
 	background-repeat: repeat;
@@ -185,4 +185,55 @@ a:hover{
 
 a:active{
 	color: gray;
+}
+
+fieldset, fieldset p{
+	background-color: rgb(61, 61, 61);
+	font-size: 100%;
+	font-style: normal;
+	text-indent: 2em;
+	height:	inherit;
+	margin: 1%  auto;
+	padding: 1% 1%;
+	border: 0.5em solid #cdcdcd;
+	border-radius: 16px;
+	display: inline-block;
+}
+
+.title{
+	float: right;
+	width: 30em;
+	clear: left;
+	text-align: right;
+}
+
+
+input{
+	width: 18em;
+	border: 0.1em solid #d6d6d6;
+	padding: 0.1em;
+	float: right;
+}
+
+input:hover, input:focus{
+	background-color: #d0e2f0;
+	border: 0.1em solid #999999;
+}
+
+#submit{
+	width: 20em;
+	text-align: right;
+}
+
+#submit input{
+	border: 0.1em solid #006633;
+	background-color: rgba(112, 119, 110, 1.0);
+	color: #ffffff;
+	padding: 0.25em;
+	margin-top: 0.5em;
+}
+
+#submit input:hover{
+	background-color: #00cc33;
+	cursor: pointer;
 }
