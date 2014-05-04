@@ -6,7 +6,8 @@
 \pard\pardeftab720\pardirnatural
 
 \f0\fs24 \cf0 WEBSITE LINK!\
-{\field{\*\fldinst{HYPERLINK "http://jdmitchell.github.io/DWS/Mitchell-John-styling-text/styling-text.html"}}{\fldrslt http://jdmitchell.github.io/DWS/Mitchell-John-final-project/final-project.html}}\
+{\field{\*\fldinst{HYPERLINK "http://jdmitchell.github.io/DWS/Mitchell-John-final-project/final-project.html"}}{\fldrslt http://jdmitchell.github.io/DWS/Mitchell-John-final-project/final-project.html}}\
+\
 \
 REPO LINK!\
 https://github.com/JDMitchell/DWS/tree/gh-pages\
